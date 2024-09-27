@@ -15,21 +15,18 @@ body {
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
-/* match section width with image width */
 section {
-    max-width: 600px;
-    margin: .5rem;
+    flex: 1 1 50%;
+    margin: 1rem;
 }
 article {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     color: #000;
     padding: 2rem;
 }
+/* put space between h2 and p */
 h2 {
-   text-align: center; 
-   margin: .5rem;
+    margin-top: .1rem;
 }
 /* format and style navbar */
 header {
@@ -59,10 +56,6 @@ footer {
 footer p {
     text-align: center;
 }
-/* change tiger image caption text to white for improved contrast */
-#tiger .photo p {
-    color: #fff;
-}
 /* change background colors of each article */
 #cougar {
     background: #FFD5AE;
@@ -72,10 +65,9 @@ footer p {
 }
 #tiger {
     background: #B26219;
+    color: #fff;
 }
 .text {
-    background: #fff;
-    padding: 2rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
@@ -115,9 +107,9 @@ nav a {
 nav a:hover {
     color: #82E8FF;
 }
-#tiger .photo a {
+#tiger a {
     color: #FDCFAC;
 }
-#tiger .photo a:hover {
+#tiger a:hover {
     color: #f6be93;
 }
